@@ -1,4 +1,6 @@
-import * as debug from "debug";
+import * as dep from "dep";
 import { join } from "path";
 
-const log = debug(require(join(__dirname, "..", "package.json")).name);
+const log = dep(require(join(__dirname, "..", "package.json")).name);
+
+log("hi");

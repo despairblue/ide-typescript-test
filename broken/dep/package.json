@@ -1,9 +1,9 @@
 {
-  "name": "debug",
+  "name": "dep",
   "version": "1.0.0",
   "description": "",
   "main": "src/test.js",
-  "declaration": "src/test.d.ts",
+  "types": "src/test.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

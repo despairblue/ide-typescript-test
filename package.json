@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "dependencies": {
+    "debug": "^3.0.1"
+  },
+  "workspaces": ["packages/*"],
+  "devDependencies": {},
+  "name": "ide-typescript-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Danny Martini <despair.blue@gmail.com>",
+  "license": "MIT"
+}

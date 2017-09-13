@@ -1,6 +1,5 @@
-import * as dep from "dep";
-import { join } from "path";
+import id from "dep";
 
-const log = dep(require(join(__dirname, "..", "package.json")).name);
+const num = 5;
 
-log("hi");
+console.log(id(num));

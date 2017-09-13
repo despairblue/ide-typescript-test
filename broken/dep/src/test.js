@@ -1,3 +1,3 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = function () { return function () { }; };
+exports.default = function (a) { return a; };

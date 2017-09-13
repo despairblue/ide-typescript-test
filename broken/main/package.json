@@ -1,18 +1,20 @@
 {
-  "name": "@ide-typescript-test/bar",
+  "name": "main",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/debug": "^0.0.30",
+    "@types/node": "^8.0.28",
     "typescript": "^2.5.2"
   },
   "dependencies": {
-    "@ide-typescript-test/foo": "*"
+    "debug": "*"
   }
 }
